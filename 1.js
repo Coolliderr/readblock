@@ -1,4 +1,5 @@
 require('dotenv').config();
+const fs = require('fs');
 const { ethers } = require('ethers');
 const mysql = require('mysql2/promise');
 
